@@ -10,3 +10,9 @@ Known Bugs
 <pre>
   - After setting the API key you have to relaunch the app before data will be loaded.
 </pre>
+
+Change Log
+==========
+<pre>
+05/05/2014 - Created repository and README
+</pre>
