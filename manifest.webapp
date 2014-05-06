@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "name": "D7 Peercoin Tracker",
+  "launch_path": "/index.html",
+  "description": "An application to track your mining progress with the D7 Peercoin Mining Pool.",
+  "icons": {
+    "16": "/images/logo16.png",
+    "32": "/images/logo32.png",
+    "48": "/images/logo48.png",
+    "60": "/images/logo60.png",
+    "64": "/images/logo64.png",
+    "90": "/images/logo90.png",
+    "120": "/images/logo120.png",
+    "128": "/images/logo128.png",
+    "256": "/images/logo256.png"
+  },
+  "developer": {
+    "name": "Daniel Blair",
+    "url": "http://CMDann.ca"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+    "desktop-notification": {
+      "description": "To show peercoin notifications"
+    }
+  },
+  "locales": {
+   "en": {
+      "name": "D7 Peercoin Tracker",
+      "description": "An application to track your mining progress with the D7 Peercoin Mining Pool."
+    },
+    "en-US": {
+      "name": "D7 Peercoin Tracker",
+      "description": "An application to track your mining progress with the D7 Peercoin Mining Pool."
+    },
+    "fr": {
+      "name": "D7 Peercoin Tracker",
+      "description": "An application to track your mining progress with the D7 Peercoin Mining Pool."
+    }
+  }
+}
