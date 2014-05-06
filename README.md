@@ -5,7 +5,7 @@ A simple Firefox OS app that allows you to track your mining progress on the D7 
 
 You will need an API key from the D7 mining pool in order for this application to work properly.
 
-<a href="//affiliates.mozilla.org/link/banner/46614"><img src="//affiliates.mozilla.org/media/uploads/banners/21667af8d37e6766384104cdd8f96ee479e56221.png" alt="Firefox OS" /></a>
+<a href="http://affiliates.mozilla.org/link/banner/46614"><img src="http://affiliates.mozilla.org/media/uploads/banners/21667af8d37e6766384104cdd8f96ee479e56221.png" alt="Firefox OS" /></a>
 
 Known Bugs
 ==========
