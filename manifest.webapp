@@ -1,5 +1,5 @@
 {
-  "version": "1",
+  "version": "1.1",
   "name": "D7 Peercoin Tracker",
   "launch_path": "/index.html",
   "description": "An application to track your mining progress with the D7 Peercoin Mining Pool.",
@@ -28,7 +28,7 @@
     }
   },
   "locales": {
-   "en": {
+    "en": {
       "name": "D7 Peercoin Tracker",
       "description": "An application to track your mining progress with the D7 Peercoin Mining Pool."
     },

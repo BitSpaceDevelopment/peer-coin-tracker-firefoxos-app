@@ -61,13 +61,6 @@ $(document).ready(function() {
 			$( "div.worker_output" ).append( "<section class='worker'>" +
 				"<h3> Workers</h3>" + 
 				"<table class='table worker_table'>" + 
-					"<tr>" + 
-        				"<th>Username</th>" + 
-        				"<th>Active</th>" +
-        				"<th>Hashrate</th>" +
-        				"<th>Shares</th>" +
-        				"<th>(stale/dupe/other)</th>" +
-        			"</tr>" +
         			"</table>" + 
 				"</section>" );
 
@@ -75,11 +68,11 @@ $(document).ready(function() {
 	        $.each( data.user.workers, function( key, val ) {
 	        	$( "table.worker_table" ).append(
 					    "<tr>" +
-					    	"<td>" + val.username + "</td>" + 
-					    	"<td>" + val.active + "</td>" + 
-					    	"<td>" + val.hashrate + "</td>" + 
-					    	"<td>" + val.shares + "</td>" + 
-					    	"<td>" + val.rejects.stale + "/" + val.rejects.dupe + "/" + val.rejects.other + "</td>" + 
+					    	"<tr><td><span style='font-weight:bold;'>Username</span></td><td>" + val.username + "</td></tr>" + 
+					    	"<tr><td><span style='font-weight:bold;'>Active</span></td><td>" + val.active + "</td></tr>" + 
+					    	"<tr><td><span style='font-weight:bold;'>Hashrate</span></td><td>" + val.hashrate + "</td></tr>" + 
+					    	"<tr><td><span style='font-weight:bold;'>Shares</span></td><td>" + val.shares + "</td></tr>" + 
+					    	"<tr><td><span style='font-weight:bold;'>(stale/dupe/other)</span></td><td>" + val.rejects.stale + "/" + val.rejects.dupe + "/" + val.rejects.other + "</tr></td>" + 
 					    "</tr>");
 	        });
 
@@ -140,11 +133,9 @@ $(document).ready(function() {
 				"<h3>Blocks</h3>" + 
 				"<table class='table block_table'>" + 
 					"<tr>" + 
-        				"<th>Height</th>" + 
+        				"<th>Reward</th>" + 
         				"<th>Timestamp</th>" +
-        				"<th>Vlaue</th>" +
         				"<th>Finder</th>" +
-        				"<th>Reward</th>" +
         			"</tr>" +
         			"</table>" + 
 				"</section>" );
@@ -152,11 +143,9 @@ $(document).ready(function() {
 			$.each( data.pool.blocks, function( key, val ) {
 	        	$( "table.block_table" ).append(
 					    "<tr>" +
-					    	"<td>" + val.height + "</td>" + 
-					    	"<td>" + val.timestamp + "</td>" + 
-					    	"<td>" + val.value + "</td>" + 
-					    	"<td>" + val.finder + "</td>" + 
 					    	"<td>" + val.yourreward + "</td>" + 
+					    	"<td>" + val.timestamp + "</td>" + 
+					    	"<td>" + val.finder + "</td>" + 
 					    "</tr>");
 	        });
 	    });
