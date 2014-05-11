@@ -20,12 +20,14 @@ Projects Used
 Known Bugs
 ==========
 <pre>
-  - After setting the API key you have to relaunch the app before data will be loaded.
+  - None right now, if you experiance anything let me know.
 </pre>
 
 Change Log
 ==========
 <pre>
+11/05/2014 - Fixed the bug where the app needed to be relaunched
+
 06/05/2014 - Added App files
            - Published app to store
 
