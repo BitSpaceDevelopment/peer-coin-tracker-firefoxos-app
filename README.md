@@ -26,7 +26,7 @@ Known Bugs
 Change Log
 ==========
 <pre>
-11/05/2014 - Fixed the bug where the app needed to be relaunched
+11/05/2014 - Fixed the bug where the app needed to be relaunched when an API key was saved.
 
 06/05/2014 - Added App files
            - Published app to store
